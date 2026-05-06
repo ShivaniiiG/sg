@@ -9,3 +9,6 @@ This repository contains sample programs written in RPGLE and CL on AS400 (IBM i
 
 ## Note
 These are manually recreated samples as I currently do not have access to the AS400 system.
+
+Program Flow:
+User Input → CL Program → RPGLE Processing → Output Result
