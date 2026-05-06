@@ -1,0 +1,14 @@
+D balance        S              9P 2
+D amount         S              9P 2
+
+C     *ENTRY        PLIST
+C                   PARM                    amount
+
+C                   EVAL      balance = balance + amount
+C                   IF        balance < 0
+C                   DSPLY     'Insufficient Balance'
+C                   ELSE
+C                   DSPLY     'Transaction Successful'
+C                   ENDIF
+
+C                   SETON   
