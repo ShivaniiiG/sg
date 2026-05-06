@@ -1,0 +1,20 @@
+FCUSTFILE  IF   E           K DISK
+
+D CUSTID     S              5P 0
+D CUSTNAME   S              30A
+D CUSTCITY   S              20A
+
+C     *ENTRY
+C                   PLIST
+C                   PARM                    CUSTID
+
+C     CUSTID        CHAIN     CUSTFILE
+C                   IF        %FOUND
+C                   EVAL      CUSTNAME = NAME
+C                   EVAL      CUSTCITY = CITY
+C                   DSPLY     CUSTNAME
+C                   ELSE
+C                   DSPLY     'CUSTOMER NOT FOUND'
+C                   ENDIF
+
+C                   SETON                     LR
